@@ -33,8 +33,9 @@ import static com.alibaba.nacos.common.utils.CollectionUtils.getOrDefault;
  */
 public class ExternalDataSourceProperties {
     
-    private static final String JDBC_DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
-    
+//    private static final String JDBC_DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
+    private static final String JDBC_DRIVER_NAME = "oracle.jdbc.driver.OracleDriver";
+
     private static final String TEST_QUERY = "SELECT 1";
     
     private Integer num;
